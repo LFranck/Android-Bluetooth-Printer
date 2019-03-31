@@ -18,7 +18,7 @@ mPrinter.connectPrinter(new BluetoothPrinter.PrinterConnectListener() {
     mPrinter.finish();
   }
   
-  @Overide
+  @Override
   public void onFailed() {
     Log.d("BluetoothPrinter", "Conection failed");
   }
